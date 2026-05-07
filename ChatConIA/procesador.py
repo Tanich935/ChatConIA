@@ -38,7 +38,7 @@ class Procesador:
         if instruccion is None:
             return "Porfavor usa correctamente el formato -> 'INSTRUCCION : Texto'"
 
-        promptFinal = f"Actúa según esta instrucción: {instruccion}. Sobre el siguiente tema o texto: {texto}. Responde de forma clara, directa y sin saludos."
+        promptFinal = "Actúa según esta instrucción: " + instruccion + "Sobre el siguiente tema o texto: " + texto + ".Responde de forma clara, directa y sin saludos."
         
         respuesta = self.chat_session.send_message(promptFinal)
         respuestaFinal = respuesta.text
