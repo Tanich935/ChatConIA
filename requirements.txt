@@ -1,2 +1,8 @@
-google-generativeai
-pyttsx3
+pip install google-generativeai
+pip install pyttsx3
+pip install SpeechRecognition
+pip install PyAudio
+pip install Pillow
+
+Todas En Una Sola Instalacion: 
+pip install google-generativeai pyttsx3 SpeechRecognition PyAudio Pillow
