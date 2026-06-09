@@ -14,4 +14,4 @@
 Asegúrate de tener instaladas las dependencias necesarias:
 
 ```bash
-pip install google-generativeai pyttsx3
+pip install google-generativeai pyttsx3 SpeechRecognition PyAudio Pillow
